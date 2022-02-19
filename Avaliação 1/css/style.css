@@ -30,6 +30,8 @@ body{
     margin-left: 60px;
     padding: 45px;
     position: relative;
+    display: inline-block;
+    width: 56%;
 }
 
 #texto-top-1{
@@ -81,7 +83,7 @@ body{
 .aluno-0{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 75%;
     border-bottom: 1px solid grey;
     margin-bottom: 20px;
     height: 100px;
@@ -89,7 +91,7 @@ body{
 .aluno-1{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 75%;
     border-bottom: 1px solid grey;
     margin-bottom: 20px;
     height: 100px;
@@ -97,7 +99,7 @@ body{
 .aluno-2{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 75%;
     border-bottom: 1px solid grey;
     margin-bottom: 20px;
     height: 100px;
@@ -105,28 +107,229 @@ body{
 .aluno-historico{
     margin-left: 10px;
 }
+.aluno-historico p{
+    font-weight: 600;
+    color: dimgray;
+}
+.aluno-historico span{
+    color: orange;
+}
+.divisao-aluno-pont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.pontuacao{
+    width: 90px;
+
+}
 .caixa-baixa{
     margin-left: 5%;
     height: 290px;
     border: 1px solid grey;
     border-radius: 12px;
-    width: 50%;
-    display: flex;
+    width: 90%;
+    display: grid;
     position: relative;
     align-items: center;
 }
 #img-caixa-baixa{
     margin-left: 10%;
+    display: block;
 }
-.texto-caxa-baixa{
+.texto-caixa-baixa{
+    display: block;
     position: absolute;
     left: 25%;
-    display: grid;
-    width: 20%;
+    top: 10%;
 }
-.texto-caxa-baixa h3{
-    margin-top: 20%;
+.text-low-flex{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    width: 130%;
+    align-items: end;
 }
-.texto-caxa-baixa p{
-    margin-top: 5%;
+#p1-text-low{
+    width: 100px;
+}
+.caixa-amarela{
+    background-color: yellow;
+    border-radius: 7px;
+    height: 70%;
+    width: 130%;
+    padding: 20px;
+    color: white;
+}
+
+
+/* parte direita do site  */
+
+
+.part-direita{
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    width: 32.4%;
+    background-color: #80808069;
+    padding: 45px;
+}
+.perfil-aluno{
+    text-align: center;
+    margin-top: -5%;
+}
+.perfil-aluno-img{
+    border-radius: 50%;
+}
+.perfil-aluno h3{
+    font-size: 20px;
+    margin-top: 10px;
+    color: grey; 
+}
+.perfil-aluno h2{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.caixa-doc{
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    height: 356px;
+    margin-top: 25%;
+}
+#anotacao{
+    font-weight: 600;
+    color: dimgrey;
+}
+#comunicacao{
+    font-weight: 600;
+    color: dimgrey;
+}
+.caixa-anotacao-0{
+    height: 163px;
+    width: 70%;
+    background-color: #0b0b12;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 70%;
+    margin-bottom: 4%;
+}
+.caixa-anotacao-0 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.caixa-anotacao-1{
+    height: 163px;
+    width: 70%;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 70%;
+    border: 2px solid black;
+    margin-bottom: 8%;
+}
+.caixa-anotacao-1 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.caixa-comunica{
+    margin-top: 11%;
+}
+.semi-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.semi-menu h2{
+    color: white;
+    width: 90px;
+    padding: 10px;
+    font-size: 20px;
+}
+#semi-menu-gru1{
+    background-color: orangered;
+    border-radius: 10px;
+}
+#semi-menu-gru2{
+    background-color: dimgray;
+    border-radius: 10px;
+}
+.comunica-aluno-0{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    display: flex;
+}
+.comunica-aluno-1{
+    display: flex;
+}
+
+
+/* Div flutuante */
+
+
+.div-flutuante{
+    width: 67%;
+    background-color: #1b67f1f5;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: 37%;
+    right: 68%;
+}
+.div-flutuante h2{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+.div-flutuante p{
+    color: white;
+    width: 230px;
+    margin-bottom: 10px;
+}
+.bloco-1{
+    width: 300px;
+    display: inline-block;
+    background-color: #ffffff4d;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.data{
+    width: 51%;
+    background-color: #ffffff4d;
+    height: 20px;
+    padding: 10px;
+    color: white;
+}
+.avaliacao{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+}
+.horario-0{
+    display: flex;
+    justify-content: space-between;
+}
+.horario-1{
+    display: flex;
+    justify-content: space-between;
+}
+.bloco-2{
+    width: 113px;
+    padding: 10px;
+    background-color: #ffffff4d;
+    display: inline-block;
+    height: 85px;
+    text-align: inherit;
+}
+.bloco-2 h2{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+.bloco-2 p{
+    color: white;
 }
