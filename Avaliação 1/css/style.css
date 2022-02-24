@@ -58,7 +58,7 @@ body{
     padding: 10px;
 }
 .caixa-nota h3{
-    margin-right: 15px;
+    margin-right: 10px;
 }
 .box0 h3{
     color: orange;
@@ -357,14 +357,122 @@ body{
 
 /* responsividade */
 
-@media (max-width:393px){
+@media (max-width:1024px){
+    .part-esquerda{
+        padding: 20px;
+    }
+    .caixa-nota{
+        width: 30%;
+    }
+    .part-direita{
+        width: 31%;
+        padding: 20px;
+        margin-left: 0px;
+    }
+    .caixa-doc{
+        margin-bottom: 26px;
+    }
+    .caixa-anotacao-0{
+        margin-left: 15%;
+    }
+    .caixa-anotacao-1{
+        margin-left: 15%;
+    }
+    .div-flutuante{
+        width: 88%;
+        top: 135%;
+        right: 50%;
+    }
+    .caixa-baixa{
+        width: 395px;
+    }
+    .texto-caixa-baixa{
+        left: 38%;
+    }
+    .text-low-flex{
+        width: 100%;
+    }
+    .caixa-amarela{
+        width: 90%;
+    }
+}
+@media (max-width:768px){
+    .div-flutuante{
+        width: 148%;
+        top: 82%;
+        right: 62%;
+    }
+}
+@media (max-width:412px){
+    .part-esquerda{
+        display: block;
+        padding: 20px;
+    }
+    .caixa-nota{
+        width: 33%;
+    }
+    .caixa-nota p{
+        font-size: 10px;
+    }
+    .historico{
+        width: 412px;
+    }
+    .caixa-baixa{
+        width: 395px;
+    }
+    .texto-caixa-baixa{
+        left: 38%;
+        top: 15%;
+    }
+    .text-low-flex{
+        width: 100%;
+    }
+    .caixa-amarela{
+        width: 80%;
+    }
+     .part-direita{
+         width: 412px;
+         padding: 20px;
+         position: static;
+     }
+     .perfil-aluno{
+         margin-top: 80%;
+     }
+     .caixa-doc{
+         margin-left: 45px;
+         margin-bottom: 20px;
+     }
+     .caixa-anotacao-0{
+         margin-left: 0%;
+         margin-top: 20px;
+     }
+     .caixa-anotacao-1{
+         margin-left:0%;
+     }
+     .caixa-comunica{
+         margin-top: 20%;
+         margin-left: 50px;
+     }
+     .div-flutuante{
+         width: 75%;
+         top: 100%;
+         right: 0;
+     }
+     .data{
+         width: 70%;
+     }
+     .bloco-2{
+         height: 124px;
+     }
+}
+@media (max-width:392px){
 
      .part-esquerda{
         width: 392px;
         margin-left: 30px;
     }
     .caixa-nota{
-        width: 18%;
+        width: 33%;
         font-size: 10px;
     }
     .caixa-baixa{
@@ -425,3 +533,5 @@ body{
     }
 
 }
+
+
